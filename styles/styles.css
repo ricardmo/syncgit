@@ -1,0 +1,310 @@
+
+/*--------------ESTILOS GENERALES------------------------*/
+*{
+    margin: 0 auto;
+}
+    
+
+body {
+    background-color: #F7FAFD;    
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+
+/* -----------------------BARRA NAVEGACIÓN--------------*/
+nav {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0;
+    /* padding-top: 0.5%;
+    padding-bottom: 0.5%; */
+    position: fixed;
+    background-color: #F7FAFD;
+    box-shadow: 0px 0px 6px 0px;
+}
+
+
+/* .logo, .navbuttons{
+    height: 100%;
+}  */
+.divlogo{
+    /* max-height: 100%;
+    /* min-width: auto; */
+    /* max-width: 100%; 
+    text-align: center; */
+    margin: 20% auto;
+    
+}
+
+.logo{
+    width: 60%;
+    height: 100%;
+    /* text-align: center; */
+    /* margin: 25px auto; */
+    /* padding-top: auto;
+    padding-bottom: auto; */
+    
+} 
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    /* background-color: #dadada; */
+    margin: 0;
+    padding-left: 0;
+    
+}
+
+nav, .nav, .navbar ul {
+    display:flex;
+    /* flex-flow: row; */
+    /* justify-content: center; */
+}
+.nav{
+    max-width: 1080px;
+}
+.nav, .navbar ul{
+    margin: 0 auto ;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    /* align-items: end; */
+    /* justify-content: flex-end; */
+}
+.nav, .navbar ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    margin: auto;
+    /* padding: 100%; */
+    margin-top: auto;
+}
+
+.navbar ul li a{
+    color: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.bbuton{
+    color: #303030;
+}
+
+nav ul li a:hover {
+    color: #FF4B63;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.download {
+    color: #FF4B63;
+    border-color: #FF4B63;
+    /* cursor: pointer; */
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+
+
+/*----------------MAIN CONTENT------------------*/
+header h1{
+    font-size: 60px;
+    color: #303030;
+    padding-top: 140px;
+    /* padding-bottom: 20px; */
+    text-align: center;
+}
+
+
+.texto {
+    margin-top: 40px;
+    
+}
+.parrafolanding{
+    color: #555555;
+    text-align: center;
+    padding: 0 10% 0 10%;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+span{
+    font-weight: bold;
+}
+
+/*-----------------BUTTONS---------------*/
+
+.divbuttons {
+    display: flex;
+    
+    width: 50%;
+    margin-bottom: 20px auto;
+}
+
+.divbuttons2{
+    margin: 20px 0;
+    width: /* 40%; */
+    display: flex;
+    /* justify-content: flex-start; */
+    /* flex-flow: wrap; */
+}
+.buttondiv{
+    display: flex;
+    /* height: 20%; */
+}
+
+
+.pink{
+    background-color: #FF4B63;
+    font-size:  18px;
+    font-weight: bolder;
+    border-style: none;
+    border-radius: 40px;
+    padding: 12px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.pink a{
+    text-decoration: none; 
+    color: white;
+    align-items: center;
+}
+
+
+.purple, .white{
+    width: 25%;
+}
+.purple {
+    background-color: #AA7EEC;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+.white{
+    background-color: white;
+    border: none;
+    color: #606060;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.black {
+    border-width: 4px;
+    font-size:  18px;
+    font-weight: bolder;
+    border-radius: 40px;
+    padding: 12px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*----------- IPHONE --------------*/
+.iphone{
+    max-width: 900px;
+    padding: 20px 0;
+    /* width: 95%; */
+    text-align: center;
+    /* margin-left: 0;  */
+    margin-bottom: 40px;
+
+}
+
+
+/*------------ DIVICONS ROUND ---------------*/
+.divicons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.icons{
+        margin-bottom: 100px;
+        text-align: center;
+        padding: 0 5px;
+
+}
+
+.iconsround{
+    padding: 20px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+/*--------------- ORGANIZE ----------------------------*/
+
+.organize{ 
+    margin-top: 40px;
+    padding: 80px 0;
+    display: flex;
+    margin-bottom: 80px;
+    background-color: #F7FAFD;
+}
+.divleft, .divright{
+    margin: 0 20px;
+    padding: 20px;
+}
+.divleft {
+    width: 50%;
+}
+.img50{
+    width:100%;
+}
+
+.divright {
+    width: 50%;
+    /* text-align: justify; */
+}
+
+.divright h2{
+    font-size: 45px;
+    color: #303030;
+    margin-bottom: 40px;
+}
+.divright ul li, .parrafo {
+    color: #606060;
+}
+.parrafo{
+    text-align: justify;
+    line-height: 20px;
+}
+.divright ul {
+    padding: 0;
+    margin: 20px;
+}
+
+.cuadrado{
+    list-style: square;
+    line-height: 30px;
+}
+
+
+/*--------------------SCHEDULE----------------*/
+
+.schedule {
+    padding-top: 40px;
+    background-color: #E8EFF6;
+    margin: 0;
+    display: flex;
+}
+.tick{
+    list-style-image:
